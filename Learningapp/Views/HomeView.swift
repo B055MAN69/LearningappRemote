@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct HomeView: View
+{
     
-   @EnviromentalObject var model: ContentModel
+   @EnvironmentObject var model: ContentModel
     
-    
-    
-    
-    
-    var body: some View {
-        Text("Hello, world!")
+    var body: some View
+    {
+        
+        Text("Hello LEARNING App")
             .padding()
+        
     }
 }
 

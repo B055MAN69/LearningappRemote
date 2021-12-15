@@ -20,7 +20,7 @@ class ContentModel: ObservableObject {
     func getLocalData() {
         
         
-        let jsonData = try Bundle.main.url(forResource: "data", withExtension: "json")
+        let jsonUrl = try Bundle.main.url(forResource: "data", withExtension: "json")
         
         do{
             
@@ -44,7 +44,7 @@ class ContentModel: ObservableObject {
             
         }
         catch{
-            print("Couldn't parse style data")
+            print("Couldn't parse style data" )
         }
     }
     

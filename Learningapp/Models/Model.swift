@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct module : Decodable, Identifiable {
+struct Module : Decodable, Identifiable {
     
     var id: Int
     var category: String
